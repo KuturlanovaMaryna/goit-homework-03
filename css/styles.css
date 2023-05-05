@@ -66,19 +66,23 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: tomato;
+   
 }
 .page-header{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-navigation{
     display: flex;
     align-items: center;
+    column-gap: 76px;
 }
 
 .site-nav{
+    column-gap: 40px;
     display: flex;
 }
 
@@ -99,6 +103,14 @@ body {
 
 .adress{
     font-style: normal;
+        margin-left: auto;
+}
+.tel-link{
+    margin-right: 40px;
+}
+.auth-nav{
+    display: flex;
+    align-items: center;
 }
 .auth-nav a{
     color:var(--additional-text-color);
@@ -114,9 +126,14 @@ body {
     color: #404bbf;
 }
 /*Header index*/
+.page-header-container{
+    display: flex;
+    align-items: center;
 
+}
 .header{
     background-color: var(--primary-text-color);
+    height: 600px;
 }
 
 .header-title{
@@ -126,6 +143,8 @@ body {
      line-height: 1.07;
      letter-spacing: 0.02em;
      text-align: center;
+
+     padding-top: 188px;
      
 }
 
@@ -140,7 +159,14 @@ body {
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
-    
+
+
+    min-width: 169px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 48px;
 
 }
 
@@ -150,6 +176,18 @@ body {
 }
 
 /*Index Features*/
+.function{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.function-item{
+    box-sizing: border-box;
+    width: 264px;   
+    margin: 0 24px 24px 0;
+    min-height: 109px;
+}
 .function-name{
     color: var(--primary-text-color);
 
