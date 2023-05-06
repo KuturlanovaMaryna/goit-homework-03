@@ -179,6 +179,10 @@ body {
 }
 
 /*Index Features*/
+.functions{
+    width: 1158px;
+    padding: 120px 0;
+}
 .function{
     display: flex;
     padding-top: 120px;
