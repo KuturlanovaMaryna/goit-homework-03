@@ -10,6 +10,7 @@
 
 .link{
     text-decoration: none;
+
 }
 
 ul {
@@ -135,7 +136,7 @@ body {
     display: flex;
     align-items: center;
     width: 1158px;
-    padding: 24px 0;
+    padding: 0 15px;
 
 }
 .header{
