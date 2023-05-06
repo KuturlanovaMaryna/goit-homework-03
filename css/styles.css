@@ -147,7 +147,7 @@ body {
      line-height: 1.07;
      letter-spacing: 0.02em;
      text-align: center;
-     max-height: 496px;
+     max-width: 496px;
      
 }
 
@@ -203,6 +203,9 @@ body {
 .function-discription{
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.features{
+    margin-bottom: 8px;
 }
 /*What are we doing*/
 
