@@ -68,10 +68,6 @@ body {
 
 /*Site nav*/
 
-
-.page-header-container{
-    width: 1158px;
-}
 .page-header{
     display: flex;
     align-items: center;
@@ -138,7 +134,6 @@ body {
 .page-header-container{
     display: flex;
     align-items: center;
-    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 
