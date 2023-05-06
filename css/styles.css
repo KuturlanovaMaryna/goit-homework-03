@@ -189,18 +189,14 @@ body {
 }
 
 /*Index Features*/
-.functions{
-    
-    padding: 120px 0;
-}
 
 .function{
-    width: 1158px;
+
     display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 24px;
-    text-align: center;
+    
 }
 
 .function-item{
