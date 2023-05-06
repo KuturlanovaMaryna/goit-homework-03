@@ -208,7 +208,9 @@ body {
     margin-bottom: 8px;
 }
 /*What are we doing*/
-
+.possibilities-items{
+    padding-bottom: 120px;
+}
 .possibilities{
     display: flex;
     gap: 24px;
@@ -222,7 +224,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;}
+    margin-bottom: 72px;}
 
 
 /*Index Team*/
