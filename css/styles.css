@@ -63,12 +63,9 @@ body {
 /*Site nav*/
 
 .container{
-
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 0 auto;
+    padding: 0 15px;
    
 }
 .page-header{
@@ -189,23 +186,29 @@ body {
 }
 
 /*Index Features*/
-.function{
-    width: 1158px;
+.functions{
+    
     padding: 120px 0;
 }
+
 .function{
+    width: 1158px;
     display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 24px;
     text-align: center;
 }
+
 .function-item{
     box-sizing: border-box;
     width: 264px;   
     text-align: left;
     min-height: 109px;
+
+    width: calc((100% - 72px) / 4);
 }
+
 .function-name{
     color: var(--primary-text-color);
 
@@ -216,6 +219,7 @@ body {
     margin-bottom: 8px;
 
 }
+
 .function-discription{
     line-height: 1.5;
     letter-spacing: 0.02em;
