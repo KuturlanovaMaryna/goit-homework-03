@@ -68,6 +68,9 @@ body {
     padding: 0 15px;
    
 }
+.page-header-container{
+    width: 1158px;
+}
 .page-header{
     display: flex;
     align-items: center;
