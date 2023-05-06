@@ -149,7 +149,6 @@ body {
      line-height: 1.07;
      letter-spacing: 0.02em;
      text-align: center;
-     max-width: 496px;
      
 }
 
@@ -204,15 +203,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 }
 .function-discription{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.features{
-    margin-bottom: 8px;
-}
+
 /*What are we doing*/
 .possibilities-items{
     padding-bottom: 120px;
