@@ -300,6 +300,9 @@ body {
     padding: 32px 16px;
 }
 /*Buttons portfolio*/
+.portfolio{
+    padding: 96px 0 120px;
+}
 .buttons{
     display: flex;
     align-items: center;
@@ -345,7 +348,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;}
-    
+
 .features-item-container{
     display: inline-block;
 }
