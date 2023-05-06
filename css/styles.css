@@ -31,6 +31,12 @@ img{
     display: block;
 }
 
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+}
+
 /*Site header*/
 
 body {
@@ -62,12 +68,7 @@ body {
 
 /*Site nav*/
 
-.container{
-    
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1158px;
-}
+
 .page-header-container{
     width: 1158px;
 }
