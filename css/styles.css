@@ -64,7 +64,7 @@ body {
 
 .container{
 
-    
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -189,7 +189,7 @@ body {
 }
 
 /*Index Features*/
-.functions{
+.function{
     width: 1158px;
     padding: 120px 0;
 }
@@ -198,11 +198,12 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 24px;
+    text-align: center;
 }
 .function-item{
     box-sizing: border-box;
     width: 264px;   
-  
+    text-align: left;
     min-height: 109px;
 }
 .function-name{
@@ -266,7 +267,7 @@ body {
 .member{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc(100% - 72px);
+    width: calc(100% - 72px)/4;
 }
 .members-team{
     display: flex;
@@ -302,7 +303,7 @@ body {
 .buttons{
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
     gap: 24px;
     padding-top: 96px;
 }
@@ -333,7 +334,18 @@ justify-content: center;
     padding-top: 72px;
     padding-bottom: 120px;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+    
 .features-item-container{
     display: inline-block;
 }
