@@ -244,6 +244,7 @@ body {
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
+    box-sizing: border-box;
 }
 .specialist-name{
     color: #2E2F42;
@@ -251,6 +252,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: 32px 65px 0 65px;
+    text-align: center;
 
 }
 
@@ -258,9 +261,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin: 8px 68px 32px 68px;
 }
 /*Buttons portfolio*/
-
+.buttons{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    gap: 24px;
+    padding-top: 96px;
+}
 .button{
     background-color: #F4F4FD;
     color: var(--accent-color);
@@ -271,6 +282,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: flex;
 }
 
 .button:hover ,
@@ -280,6 +292,18 @@ body {
 }
 
 /*Features*/
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.features-item-container{
+    display: inline-block;
+}
+
 .features-name{
     color: #2E2F42;
     font-weight: 500;
@@ -304,6 +328,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .basement-logo span {
@@ -316,10 +342,14 @@ body {
     }
 .basement{
     background-color: var(--primary-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .basement-text{
     color:var(--footer-text-color);
     font-size: 16px;
     line-height: 1.5;
+    display: block;
+    width: 264px;
 
 }
