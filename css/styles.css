@@ -227,6 +227,9 @@ body {
     gap: 24px;
     padding-bottom: 120px;
 }
+.possibilities-items-img{
+    width: calc(100% - 48px);
+}
 .content-name{
     color: #2E2F42;
     font-weight: 700;
@@ -269,7 +272,7 @@ body {
     box-sizing: border-box;
 }
 .member-team-img{
-    width: calc(100% - 48px);
+    width: calc(100% - 72px);
 }
 .specialist-name{
     color: #2E2F42;
