@@ -88,7 +88,7 @@ body {
 .site-nav{
     gap: 40px;
     display: flex;
-    padding: 24px 0;
+
 }
 
 .site-nav a{
@@ -102,6 +102,7 @@ body {
     text-decoration: none;
     padding: 24px 0;
 }
+
 .site-nav a:hover,
 .site-nav a:focus{    
         color:#404bbf;
