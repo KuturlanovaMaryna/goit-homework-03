@@ -266,6 +266,7 @@ body {
 .member{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    width: calc(100% - 72px);
 }
 .members-team{
     display: flex;
@@ -273,9 +274,7 @@ body {
     padding-bottom: 120px;
     box-sizing: border-box;
 }
-.member{
-    width: calc(100% - 72px);
-}
+
 .specialist-name{
     color: #2E2F42;
     font-weight:500;
