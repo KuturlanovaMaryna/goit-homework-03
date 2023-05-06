@@ -189,7 +189,9 @@ body {
 }
 
 /*Index Features*/
-
+.functions{
+    padding: 120px 0;
+}
 .function{
 
     display: flex;
@@ -343,6 +345,7 @@ body {
     gap: 24px;
     padding-top: 72px;
     padding-bottom: 120px;
+    row-gap: 48px;
 }
 .visually-hidden {
     position: absolute;
