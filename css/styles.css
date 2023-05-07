@@ -222,7 +222,9 @@ body {
 }
 
 /*What are we doing*/
-
+.possibilities-items{
+    padding-bottom: 120px;
+}
 .possibilities{
     display: flex;
     gap: 24px;
