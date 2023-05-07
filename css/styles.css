@@ -55,6 +55,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     
 }
 
@@ -222,7 +223,7 @@ body {
 
 /*What are we doing*/
 .possibilities-items{
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .possibilities{
     display: flex;
@@ -302,7 +303,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
+   
 }
 .button{
     background-color: #F4F4FD;
@@ -327,12 +328,14 @@ body {
 }
 
 /*Features*/
+.portfolio{
+    padding: 96px 0 120px;
+}
 .features{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 72px;
-    padding-bottom: 120px;
     row-gap: 48px;
 }
 .visually-hidden {
