@@ -55,7 +55,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    
 }
 
 
@@ -107,11 +107,9 @@ body {
 
 .adress{
     font-style: normal;
-        margin-left: auto;
+    margin-left: auto;
 }
-.tel-link{
-    margin-right: 40px;
-}
+
 .auth-nav{
     display: flex;
     align-items: center;
@@ -191,8 +189,6 @@ body {
 .function{
 
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
     
 }
@@ -229,7 +225,6 @@ body {
 .possibilities{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .possibilities-item{
     width: calc(100% - 48px);
@@ -248,8 +243,6 @@ body {
 
 /*Index Team*/
 .team{
-    padding: 120px 0;
-
     background-color: #F4F4FD;
 }
 
@@ -283,11 +276,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin: 32px 65px 0 65px;
-    text-align: center;
 
+    text-align: center;
     margin-bottom: 8px
 
+}
+.specialist-container {
+    padding: 32px 16px;
 }
 
 .job-title{
@@ -295,22 +290,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 8px 68px 32px 68px;
+  
 }
-.specialist-container{
-    padding: 32px 16px;
-}
+
 /*Buttons portfolio*/
-.portfolio{
-    padding: 96px 0 120px;
-}
+
 .buttons{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
     padding-top: 96px;
-    margin-bottom: 72px
 }
 .button{
     background-color: #F4F4FD;
