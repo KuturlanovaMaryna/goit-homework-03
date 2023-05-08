@@ -79,7 +79,7 @@ body {
 .page-navigation{
     display: flex;
     align-items: center;
-    column-gap: 76px;
+
 }
 
 .site-nav{
